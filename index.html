@@ -13,9 +13,12 @@
     </script>
     <!-- OneTrust Cookies Consent Notice end for jonkim47.github.io -->
 
+    <!-- Add Segment's OneTrust Consent Wrapper -->
+    <script src="https://cdn.jsdelivr.net/npm/@segment/analytics-consent-wrapper-onetrust@latest/dist/umd/analytics-onetrust.umd.js"></script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Owl Capital Partners - Demo</title>
+    <title>Segment + OneTrust - Demo</title>
 
     <!-- Link to Bootstrap CSS -->
     <link
@@ -90,7 +93,7 @@
             };
             analytics._writeKey = "E012wyk1DUywYPZuDXpVuNHBAK2yKi4s";
             analytics.SNIPPET_VERSION = "4.16.1";
-            analytics.load("E012wyk1DUywYPZuDXpVuNHBAK2yKi4s");
+            withOneTrust(analytics).load("E012wyk1DUywYPZuDXpVuNHBAK2yKi4s");
             analytics.page("Home");
           }
       })();
