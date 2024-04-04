@@ -2,51 +2,45 @@ const LOGGED_IN_KEY = "loggedIn";
 
 const ACTIONS = [
   {
-    title: "Open Account",
+    title: "Open Trial Account",
     image: "./assets/open-account.jpeg",
-    description: "Sign up for a new online financial account, provide personal information, and set up login credentials to access financial services.",
+    description: "Easily organize your work. Start free. Access Asana's features. No credit card required.",
     properties: [
-      { name: "Account Type", value: "Savings" },
-      { name: "Account Tier", value: "Basic" },
-      { name: "Initial Deposit Amount", value: "$1,000" },
-      { name: "Identification Documents", value: "Passport" }
+      { name: "Account Type", value: "Trial" },
+      { name: "Account Tier", value: "Personal" },
+      { name: "Cost", value: "$0" }
     ]
   },
   {
-    title: "Transfer Funds",
+    title: "Download App",
     image: "./assets/transfer-funds.jpeg",
-    description: "Initiate the movement of funds between different financial accounts, whether within the same institution or to external accounts at other banks.",
+    description: "Asana's native desktop app removes distractions so you can focus on what's important. Just download according to your OS, login with your email on the web, and you'll be guided to your new favorite app.",
     properties: [
-      { name: "Transfer Amount", value: "$500" },
-      { name: "Source Account", value: "Checking Account" },
-      { name: "Destination Account", value: "Savings Account" },
-      { name: "Recipient Information", value: "Account Number" },
-      { name: "Purpose of Transfer", value: "Bill Payment" }
+      { name: "OS", value: "MacOS" },
+      { name: "App Version", value: "2.1.2" }
     ]
   },
   {
-    title: "Purchase Crypto",
+    title: "View Advanced Pricing",
     image: "./assets/purchase-crypto.jpeg",
-    description: "Buy digital currencies like Bitcoin, Ethereum, and more through our secure platform.",
+    description: "For companies that need to manage a portfolio of work and goals across departments.",
     properties: [
-      { name: "Cryptocurrency Type", value: "Bitcoin" },
-      { name: "Purchase Amount", value: "1 BTC" },
+      { name: "Account Tier", value: "Advanced" },
+      { name: "Cost", value: "$24.99" },
+      { name: "Payment Cycle", value: "Annually" },
       { name: "Payment Method", value: "Credit Card" }
     ]
   },
   {
-    title: "Manage Investments",
+    title: "Attend Webinar",
     image: "./assets/manage-investments.jpeg",
-    description: "Buy or sell various types of investments, such as stocks, bonds, or mutual funds, to actively manage or grow your investment portfolio.",
+    description: "Meet Asana Intelligence: AI has joined the team",
     properties: [
-      { name: "Investment Portfolio", value: "Stocks" },
-      { name: "Investment Amount", value: "$10,000" },
-      { name: "Risk Tolerance", value: "Conservative" },
-      { name: "Investment Time Horizon", value: "Short-term" }
+      { name: "Resource Category", value: "Live Webinar" }
     ]
   },
   {
-    title: "Pay Bills",
+    title: "Read Blog",
     image: "./assets/pay-bills.jpeg",
     description: "Make payments for bills, loans, or recurring expenses through your financial account, often with the option to set up automated payments for convenience.",
     properties: [
@@ -72,7 +66,7 @@ const ACTIONS = [
 
 const HEADER_NAV_CONFIG = [
   { htmlId: "homeLink", pageName: "Home" },
-  { htmlId: "servicesLink", pageName: "Savings" },
-  { htmlId: "solutionsLink", pageName: "Investments" },
-  { htmlId: "contactLink", pageName: "Crypto" },
+  { htmlId: "servicesLink", pageName: "Features" },
+  { htmlId: "solutionsLink", pageName: "Solutions" },
+  { htmlId: "contactLink", pageName: "Resources" },
 ];
