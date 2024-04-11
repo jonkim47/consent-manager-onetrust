@@ -3,7 +3,7 @@ const LOGGED_IN_KEY = "loggedIn";
 const ACTIONS = [
   {
     title: "Open Trial Account",
-    image: "./assets/features-projects-ui-2.webp",
+    image: "./assets/open-account.jpeg",
     description: "Easily organize your work. Start free. Access Asana's features. No credit card required.",
     properties: [
       { name: "Account Type", value: "Trial" },
@@ -13,7 +13,7 @@ const ACTIONS = [
   },
   {
     title: "Download App",
-    image: "./assets/features-projects-ui-2.webp",
+    image: "./assets/transfer-funds.jpeg",
     description: "Asana's native desktop app removes distractions so you can focus on what's important. Just download according to your OS, login with your email on the web, and you'll be guided to your new favorite app.",
     properties: [
       { name: "OS", value: "MacOS" },
@@ -22,7 +22,7 @@ const ACTIONS = [
   },
   {
     title: "View Advanced Pricing",
-    image: "./assets/features-projects-ui-2.webp",
+    image: "./assets/purchase-crypto.jpeg",
     description: "For companies that need to manage a portfolio of work and goals across departments.",
     properties: [
       { name: "Account Tier", value: "Advanced" },
@@ -33,7 +33,7 @@ const ACTIONS = [
   },
   {
     title: "Attend Webinar",
-    image: "./assets/features-projects-ui-2.webp",
+    image: "./assets/manage-investments.jpeg",
     description: "Meet Asana Intelligence: AI has joined the team",
     properties: [
       { name: "Resource Category", value: "Live Webinar" }
@@ -41,7 +41,7 @@ const ACTIONS = [
   },
   {
     title: "Read Blog",
-    image: "./assets/features-projects-ui-2.webp",
+    image: "./assets/pay-bills.jpeg",
     description: "Make payments for bills, loans, or recurring expenses through your financial account, often with the option to set up automated payments for convenience.",
     properties: [
       { name: "Biller Information", value: "Name of the Company" },
@@ -52,7 +52,7 @@ const ACTIONS = [
   },
   {
     title: "Request Customer Support",
-    image: "./assets/features-projects-ui-2.webp",
+    image: "./assets/customer-support.jpeg",
     description: "Contact customer support to seek assistance with account-related issues, resolve problems, or ask questions regarding products and services.",
     properties: [
       { name: "Customer Name", value: "Your Name" },
